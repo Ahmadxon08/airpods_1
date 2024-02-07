@@ -1495,9 +1495,13 @@ body {
       display: flex;
       .card_content {
         display: flex;
+        flex-direction: column;
         .card_head {
+          display: flex;
+          align-items: start !important;
+
          
-          justify-content: start;
+         
           h1 {
             display: flex;
             align-items: start;

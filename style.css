@@ -1459,9 +1459,11 @@ body main .cards_sec {
 }
 body main .cards_sec .card_content {
   display: flex;
+  flex-direction: column;
 }
 body main .cards_sec .card_content .card_head {
-  justify-content: start;
+  display: flex;
+  align-items: start !important;
 }
 body main .cards_sec .card_content .card_head h1 {
   display: flex;

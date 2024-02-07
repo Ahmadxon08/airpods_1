@@ -598,4 +598,4 @@ function displayCards(products){
 
 }
 
-displayCards.(products)
+displayCards(products)
