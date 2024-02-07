@@ -583,7 +583,7 @@ function displayCards(products){
   products.forEach((product) => {
     str+=`
     <div class="card">
-    <img src="${product.images[0]}"
+    <img src="${product.images[1]}"
     <div class="inner_card">
     <h1>${product.name}</h1>
     <p>${product.category}</p>

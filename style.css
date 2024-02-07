@@ -1453,9 +1453,11 @@ body #backtop {
 
 body main {
   margin-top: 100px;
+  background-color: rgb(244, 243, 224);
 }
 body main .cards_sec {
   display: flex;
+  padding-bottom: 40px;
 }
 body main .cards_sec .card_content {
   display: flex;
@@ -1464,6 +1466,7 @@ body main .cards_sec .card_content {
 body main .cards_sec .card_content .card_head {
   display: flex;
   align-items: start !important;
+  margin-bottom: 40px;
 }
 body main .cards_sec .card_content .card_head h1 {
   display: flex;
@@ -1485,12 +1488,24 @@ body main .cards_sec .card_content .cards {
 }
 body main .cards_sec .card_content .cards .card {
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   max-width: 272px;
   height: 350px;
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
 }
 body main .cards_sec .card_content .cards .card img {
   width: 100%;
-  overflow: hidden;
+  overflow: hidden !important;
+}
+body main .cards_sec .card_content .cards .card .inner_card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 8px;
+  gap: 8px;
+}
+body main .cards_sec .card_content .cards .card:hover {
+  box-shadow: 3px 4px 7px 0px rgba(0, 0, 0, 0.1019607843);
 }/*# sourceMappingURL=style.css.map */

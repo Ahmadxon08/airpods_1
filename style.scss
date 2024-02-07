@@ -1491,17 +1491,18 @@ body {
 body {
   main {
     margin-top: 100px;
+    background-color:rgb(244, 243, 224) ;
     .cards_sec {
       display: flex;
+     padding-bottom:40px;
       .card_content {
         display: flex;
         flex-direction: column;
         .card_head {
           display: flex;
           align-items: start !important;
+          margin-bottom: 40px;
 
-         
-         
           h1 {
             display: flex;
             align-items: start;
@@ -1522,17 +1523,28 @@ body {
           gap: 16px;
           .card {
             display: flex;
-            align-items: center;
+            align-items: start;
             flex-direction: column;
             max-width: 272px;
             height: 350px;
+            transition: 0.3s ease-in-out;
+            background-color: #fff;
             img {
               width: 100%;
-              overflow: hidden;
+              overflow: hidden !important;
+            } 
+            .inner_card {
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+              padding: 8px;
+              gap: 8px;
             }
           }
+          .card:hover {
+            box-shadow: 3px 4px 7px 0px #0000001a;
+          }
         }
-      
       }
     }
   }
