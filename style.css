@@ -1449,4 +1449,46 @@ body #backtop {
   z-index: 99;
   scroll-behavior: smooth;
   transition: 1 s;
+}
+
+body main {
+  margin-top: 100px;
+}
+body main .cards_sec {
+  display: flex;
+}
+body main .cards_sec .card_content {
+  display: flex;
+}
+body main .cards_sec .card_content .card_head {
+  justify-content: start;
+}
+body main .cards_sec .card_content .card_head h1 {
+  display: flex;
+  align-items: start;
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #414141;
+}
+body main .cards_sec .card_content .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+body main .cards_sec .card_content .cards .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 272px;
+  height: 350px;
+}
+body main .cards_sec .card_content .cards .card img {
+  width: 100%;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
